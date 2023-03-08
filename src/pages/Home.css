@@ -1,0 +1,59 @@
+.glass-main-wr {
+    margin-left: 100px;
+    position: relative;
+}
+
+.glass-main {
+    padding-top: 95px;
+    padding-bottom: 415px;
+    padding-left: 568px;
+    padding-right: 58px;
+    background: url("/public/images/iceland-house.png") no-repeat;
+}
+
+.glass-main-title {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    color: #ffffff;
+}
+
+.glass-main-subtitle {
+    margin-top: 34px;
+    margin-left: 326px;
+    width: 333px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.glass-main-book {
+    position: absolute;
+    top: 89%;
+    left: 0;
+}
+
+.main-book-price {
+    width: 120px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 28.77px;
+    padding-right: 31px;
+    background: #E9ECE0;
+    border: 1px solid #E9ECE0;
+    font-family: 'DIN';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.main-book-price span {
+    display: block;
+    width: 609px;
+     font-size: 20px;
+    line-height: 28px;
+}

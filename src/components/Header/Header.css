@@ -1,0 +1,22 @@
+.header {
+    padding-left: 146px;
+    padding-top: 18px;
+    padding-bottom: 16.9px;
+    padding-right: 32px;
+}
+
+.nav-list {
+    list-style-type: none;
+    gap: 36px;
+}
+
+.nav-list-item a {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
