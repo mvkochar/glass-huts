@@ -33,7 +33,7 @@
 .glass-main-book {
     position: absolute;
     top: 89%;
-    left: 0;
+    left: 79px;
 }
 
 .main-book-price {
@@ -56,4 +56,129 @@
     width: 609px;
      font-size: 20px;
     line-height: 28px;
+}
+
+.glass-cabins {
+    margin-top: 110px;
+    margin-left: 157px;
+    margin-right: 51px;
+    align-items: end;
+}
+
+.glass-cabins-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+
+.glass-cabins-desc {
+    width: 465px;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.glass-cabins-more {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+}
+
+.glass-gallery  {
+    margin-top: 150px;
+    margin-left: 100px;
+    gap: 24px
+}
+
+.glass-forest {
+    margin-left: 100px;
+    margin-top: 145px;
+    background: #E9ECE0;
+    gap: 110px;
+    padding-right: 129px;
+}
+
+.glass-forest-map {
+    width: 704px;
+}
+
+.glass-forest-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+
+.glass-forest-desc {
+    width: 460px;
+    margin-top: 50px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.glass-forest-more {
+    margin-top: 21px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5B6460;
+}
+
+.glass-facilities {
+    margin-left: 100px;
+    padding-top: 150px;
+    padding-bottom: 126px;
+    padding-left: 290px;
+    padding-right: 289px;
+    background: #5B6460;
+}
+
+.glass-facilities-title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.glass-facilities-box {
+    margin-top: 150px;
+    flex-wrap: wrap;
+    row-gap: 100px;
+}
+
+.glass-more {
+    margin-left: 100px;
+    position: relative;
+}
+
+.glass-more-images img:first-child {
+    width: 676px;
+    height: 559px;
+}
+
+.glass-more-about {
+    width: 156.82px;
+    padding-top: 67px;
+    padding-bottom: 67.82px;
+    background: #E9ECE0;
+    border: 1px solid #E9ECE0;
+    border-radius: 100px;
+    font-family: 'DIN';
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    position: absolute;
+    top: 40%;
+    left: 44%;
 }

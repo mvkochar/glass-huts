@@ -1,0 +1,15 @@
+.facility {
+    width: 25%;
+    text-align: center;
+}
+
+.facility-title {
+    width: 144px;
+    margin: 20px auto;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
