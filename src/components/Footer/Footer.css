@@ -1,0 +1,88 @@
+.footer {
+    margin-top: 133px;
+    margin-left: 100px;
+    padding-left: 146px;
+    padding-right: 146px;
+    padding-top: 103px;
+    padding-bottom: 100px;
+    background: #5B6460;
+}
+
+.footer-newsletter-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.footer-newsletter-fm {
+    width: 432px;
+    margin-top: 40px;
+    padding-bottom: 4.96px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.footer-newsletter-fm input {
+    display: block;
+    width: 94%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.footer-newsletter-fm input::placeholder {
+    
+    color: #FFFFFF;
+} 
+
+.footer-newsletter-fm button {
+    display: block;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.footer-newsletter-info {
+    width: 418px;
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer-rights {
+    margin-top: 70px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    color: #EFEFEF;
+    opacity: 0.7
+}
+
+.footer-links {
+    list-style-type: none;
+    gap: 33px;
+}
+
+.footer-links-item a {
+    font-family: 'DIN';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-payments {
+    margin-top: 50px;
+    margin-left: 177px;
+    gap: 39.59px
+}

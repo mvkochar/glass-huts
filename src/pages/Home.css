@@ -182,3 +182,50 @@
     top: 40%;
     left: 44%;
 }
+
+.glass-contact {
+    margin-top: 150px;
+    margin-left: 246px;
+    margin-right: 146px;    
+}
+
+.glass-contact-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #5B6460;
+}
+
+.glass-contact-location, .glass-facilities-phone, .glass-contact-email {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.glass-contact-location {
+    margin-top: 50px;
+ 
+}
+
+.glass-contact-phone {
+    margin-top: 20px;
+}
+
+.glass-contact-social {
+    margin-top: 50px;
+    gap: 42.76px;
+}
+
+.glass-contact-action {
+    margin-top: 48px;
+}
+
+.glass-contact-book {
+    margin-top: -4px;
+}
+
+.glass-contact-book .action-btn {
+  padding-left: 88px;
+  padding-right: 88px;
+}
