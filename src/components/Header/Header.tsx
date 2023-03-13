@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import ActionButton from '../ActionButton/ActionButton'
 import './Header.css'
 
@@ -8,9 +9,9 @@ const Header = () => {
       <div className="header-logo"><img src="images/logo.svg" alt="Glass Huts" /></div>
       <nav>
         <ul className="nav-list d-f">
-          <li className="nav-list-item"><a href="">Home</a></li>
-          <li className="nav-list-item"><a href="">The Hut</a></li>
-          <li className="nav-list-item"><a href="">The area</a></li>
+          <li className="nav-list-item"><Link to="/">Home</Link></li>
+          <li className="nav-list-item"><Link to="hut">The Hut</Link></li>
+          <li className="nav-list-item"><Link to="area">The area</Link></li>
           <li className="nav-list-item"><a href="">Booking</a></li>
           <li className="nav-list-item"><a href="">About us</a></li>
           <li className="nav-list-item"><a href="">Faq</a></li>

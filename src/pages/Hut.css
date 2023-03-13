@@ -1,0 +1,47 @@
+.hut-main {
+    margin-left: 100px;
+    padding-top: 67px;
+    padding-bottom: 211px;
+    background: url('/public/images/hut-main.png') no-repeat;
+}
+
+.hut-main-title {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hut-about {
+    margin-left: 246px;
+    margin-right: 146px;
+    margin-top: 150px;
+}
+
+.hut-about-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+
+.hut-about-subtitle {
+    width: fit-content;
+    margin-top: 50px;
+    border-bottom: 1px solid #5B6460;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5B6460;
+}
+
+.hut-about-desc {
+    width: 429px;
+    margin-top: 48px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}

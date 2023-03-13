@@ -1,0 +1,95 @@
+.area-main {
+    margin-left: 100px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    background: url("/public/images/area-main.png") no-repeat;
+}
+
+.area-main-title {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.area-main-location {
+    width: fit-content;
+    margin: 15px auto;
+    margin-bottom: 0;
+    padding-left: 15px;
+    background: url("/public/images/location.png") no-repeat;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.area-main-btn {
+    display: block;
+    width: 180px;
+    margin: 64px auto;
+    margin-bottom: 0;
+    padding-top: 14px;
+    padding-bottom: 13px; 
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-family: 'DIN';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.area-about {
+    margin-left: 246px;
+    margin-right: 146px;
+    margin-top: 150px;
+}
+
+.area-about-info {
+    width: 429px;
+}
+
+.area-about-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #5B6460;
+}
+
+.area-about-subtitle {
+    margin-top: 55px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #5B6460;
+}
+
+.area-about-desc {
+    margin-top: 25px;
+    width: 429px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.area-map {
+    margin-left: 360px;
+    margin-right: 197px;
+    margin-top: 195px;
+}
+
+.area-map-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: #5B6460;
+}
