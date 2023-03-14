@@ -1,0 +1,86 @@
+.about-main {
+    margin-left: 100px;
+    padding-top: 67px;
+    padding-bottom: 67px;
+    background: url(/public/images/about-main.png) no-repeat;
+}
+
+.about-main-title {
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+
+.about-main-actions {
+    width: fit-content;
+    margin: 89px auto;
+    gap: 24px;
+}
+
+.about-main-btn {
+    display: block;
+    width: 180px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    font-family: 'DIN';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.about-info {
+    margin-left: 246px;
+    margin-right: 149px;
+    margin-top: 150px;
+}
+
+.about-info-caption {
+    width: 429px;
+}
+
+.about-info-title {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #5B6460;
+}
+
+.about-info-desc {
+    margin-top: 32px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.about-media {
+    margin-top: 150px;
+    margin-left: 102px;
+    margin-right: 32px;
+}
+
+.about-media-title {
+    width: 537px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 56px;
+    color: #5B6460;
+}
+
+.about-media-box {
+    margin-top: 100px;
+    gap: 24px;
+    flex-wrap: wrap;
+}

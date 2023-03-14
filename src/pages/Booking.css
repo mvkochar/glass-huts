@@ -1,0 +1,129 @@
+.booking-main {
+    margin-left: 100px;
+    padding-top: 67px;
+    padding-bottom: 172px;
+    background: url("/public/images/booking-main.png") no-repeat;
+}
+
+.booking-main-title {
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.booking-main-location {
+    width: fit-content;
+    margin: 15px auto;
+    padding-left: 15px;
+    background: url("/public/images/location.png") no-repeat;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.booking-choose-title {
+    width: 661px;
+    padding-bottom: 25px;
+    border-bottom: 0.7px solid #5B6460;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #5B6460;
+}
+
+.booking-choose-input {
+    width: 660px;
+    margin-top: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 24px;
+    border: 1px solid #E9ECE0;
+    background: #E9ECE0 url("/public/images/arrow-down.png") no-repeat 95%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+
+}
+
+.booking-choose-input input {
+    margin-right: 20px;
+    padding-top: 10px;
+}
+
+.booking-choose-input span {
+    display: block;
+    margin-top: 5px;
+    margin-left: 33px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.booking-choose-cat {
+    margin-top: 24px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.booking-choose-desc {
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.booking-about {
+    margin-top: 100px;
+    margin-left: 246px;
+}
+
+.booking-about-title {
+    width: 660px;
+    padding-bottom: 20px;
+    border-bottom: 0.7px solid #5B6460;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #5B6460;
+}
+
+.booking-about-list {
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.booking-about-list li {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.booking-about-list li:last-child {
+    margin-bottom: 0;
+}
+
+.booking-about-desc {
+    width: 657px;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.booking-about-action {
+    width: fit-content;
+    margin: 100px auto;
+}
