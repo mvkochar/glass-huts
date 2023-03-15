@@ -1,0 +1,56 @@
+.faq-section {
+    margin-top: 24px;
+    margin-left: 246px;
+    width: 774px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 0.7px solid #5B6460;    
+}
+
+.faq-section-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.faq-section-btn {
+    display: block;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.faq-policy {
+    margin-top: 24px;
+    margin-left: 246px;
+    width: 774px;
+    padding-top: 21px;
+    padding-bottom: 50px;
+    padding-left: 24px;
+    background: #E9ECE0;
+    border: 1px solid #E9ECE0;
+}
+
+.faq-policy-title {
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.faq-policy-desc {
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.faq-policy-desc:last-child {
+    margin-bottom: 0;
+}

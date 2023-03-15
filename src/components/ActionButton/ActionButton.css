@@ -16,3 +16,9 @@
     color: #FFFFFF;
     cursor: pointer;
 }
+
+.action-btn:hover {
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    color: #5B6460;
+}

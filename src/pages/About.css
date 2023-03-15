@@ -84,3 +84,102 @@
     gap: 24px;
     flex-wrap: wrap;
 }
+
+.about-touch {
+    margin-top: 150px;
+    margin-left: 246px;
+    margin-right: 146px;
+}
+
+.about-touch-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+    color: #5B6460;
+}
+
+.about-touch-box {
+    margin-top: 100px;
+}
+
+.about-touch-info {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.about-touch-phone {
+    margin-top: 20px;
+}
+
+.about-touch-social {
+    margin-top: 50px;
+    gap: 42.76px;
+}
+
+.about-touch-name {
+    gap: 24px;
+}
+
+.about-touch-name input{
+    display: block;
+    width: 318px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 22.5px;
+    background: #FFFFFF;
+    border: 0.7px solid #5B6460;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.about-touch-name input::placeholder, .email-bl input::placeholder, .subject-bl input::placeholder {
+    color: #828282;
+}
+
+.email-bl, .subject-bl, .message-bl {
+  margin-top: 24px;
+}
+
+.email-bl input, .subject-bl input {
+    width: 660px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 22.5px;
+    background: #FFFFFF;
+    border: 0.7px solid #5B6460;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.message-bl {
+    width: 660px;
+    height: 124px;
+    padding-top: 16.13px;
+    padding-left: 22.57px;
+    background: #FFFFFF;
+    border: 0.7px solid #5B6460;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #828282;
+}
+
+.about-touch-fm .action-btn {
+    margin-top: 24px;
+    margin-left: 460px;
+}
+
+.about-love {
+    width: fit-content;
+    margin: 150px auto;
+    margin-bottom: 0;
+}

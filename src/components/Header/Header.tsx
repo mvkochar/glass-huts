@@ -14,7 +14,7 @@ const Header = () => {
           <li className="nav-list-item"><Link to="area">The area</Link></li>
           <li className="nav-list-item"><Link to="booking">Booking</Link></li>
           <li className="nav-list-item"><Link to="about">About us</Link></li>
-          <li className="nav-list-item"><a href="">Faq</a></li>
+          <li className="nav-list-item"><Link to="faq">Faq</Link></li>
         </ul>
       </nav>
       <ActionButton title='Book now'/>

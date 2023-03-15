@@ -1,4 +1,5 @@
 import React from 'react'
+import ActionButton from '../components/ActionButton/ActionButton'
 import './About.css'
 
 const About = () => {
@@ -41,6 +42,36 @@ const About = () => {
                       <div className="about-media-item"><img src="images/about-media5.png" alt="about-media5" /></div>      
                 </div>
             </div>
+        </section>
+        <section>
+            <div className="about-touch">
+                <h3 className="about-touch-title">Stay in touch with us</h3>
+                <div className="about-touch-box d-f jc-sb">
+                    <div className="about-touch-info">
+                        <div className="about-touch-location">Vesterborg, Denmark</div>
+                        <div className="about-touch-phone">+123 456 789 000</div>
+                        <div className="about-touch-email">info@theglasshuts.com</div>
+                        <div className="about-touch-social d-f">
+                            <div><img src="images/instagram.png" alt="instagram" /></div>
+                            <div><img src="images/facebook.png" alt="facebook" /></div>
+                            <div><img src="images/twitter.png" alt="twitter" /></div>
+                        </div>
+                    </div>
+                    <form className='about-touch-fm'>
+                        <div className="about-touch-name d-f">
+                            <input type="text" name='fName' placeholder='First Name' />
+                            <input type="text" name='lName' placeholder='Last Name' />
+                        </div>
+                        <div className='email-bl'><input type="email" name="email" placeholder='Email'/></div>
+                        <div className='subject-bl'><input type="text" name="subject" placeholder='Subject'/></div>
+                        <textarea name="message" className='message-bl' value="Message"></textarea>
+                        <ActionButton title='Send'/>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div className="about-love"><img src="images/love.png" alt="love" /></div>
         </section>
     </main>
   )

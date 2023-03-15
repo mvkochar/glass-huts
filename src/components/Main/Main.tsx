@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom'
 import About from '../../pages/About'
 import Area from '../../pages/Area'
 import Booking from '../../pages/Booking'
+import Faq from '../../pages/Faq'
 import Home from '../../pages/Home'
 import Hut from '../../pages/Hut'
 
@@ -28,6 +29,10 @@ const Main = () => {
       <Route
         path='about'
         element={<About/>}
+      />
+      <Route
+        path='faq'
+        element={<Faq/>}
       />
     </Routes>
   )

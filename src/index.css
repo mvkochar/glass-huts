@@ -59,3 +59,11 @@ body {
 .align-center {
   align-items: center;
 }
+
+.d-n {
+  display: none;
+}
+
+.d-b {
+  display: block;
+}
